@@ -28,6 +28,8 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  matrix.fillScreen(matrix.Color(255,255,255));
+  matrix.drawPixel(0,0,matrix.Color(255,0,0));
+  matrix.drawPixel(0,1,matrix.Color(255,0,0));
+  matrix.drawPixel(0,2,matrix.Color(255,0,0));
   matrix.show();
 }
